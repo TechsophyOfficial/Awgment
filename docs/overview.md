@@ -291,7 +291,7 @@ The following diagram represents the tenant registration workflow which gets inv
  -->
 _Multitenancy_
 
-Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given above.
+Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given-
 
 [Multitenant Deployment](#awgment-deployment-diagram-with-multitenancy)
 
