@@ -95,7 +95,7 @@ The AWGMENT Platform is built from a number of components.
 
 # AWGMENT Components
 
-![](../images/AWGMENT_Component_Diagram.jpg)
+![](images/AWGMENT_Component_Diagram.jpg)
 
 ## Core Components
 
@@ -143,7 +143,7 @@ For more details refer to GitHub link.
  ![](images/user_component_diagram.png)
 **User Registration Workflow**
 
-![](../images/user_workflow.png)
+![](images/user_workflow.png)
 
 ### Form Modeler
 
@@ -284,7 +284,7 @@ The following diagram represents the tenant registration workflow which gets inv
   6. S
   7. s
 
-![](../images/tenant_registration_workflow.png)
+![](images/tenant_registration_workflow.png)
 
 _Multitenancy_
 
@@ -403,7 +403,7 @@ For more details refer to GitHub link.
 
 Checklist is a to-do list of items that needs to be completed by a human or a system to accomplish a business goal.
 
-![](../images/checklist_component_diagram.png)
+![](images/checklist_component_diagram.png)
 
 Above diagram represents how to create a checklist and use it in application.
 
@@ -502,7 +502,7 @@ The following are the features of PCI service
 - Exposes rest interface to fetch history for a transaction (SXP conversation and Process activity)
 - Exposes rest interface to log message into log stream (currently supports mongo db for) from Process/service (using Service Task) or SXP
 
-![](../images/SXP_integration.png)
+![](images/SXP_integration.png)
 
 ### Escalation Matrix
 
@@ -528,7 +528,7 @@ For more details refer to GitHub link.
 
 Below is the reusable process to use it in applications or any other business processes for handling escalations for a task based on the configured escalation matrix. This is a generic process which requires task details and escalation matrix details so that based on the configured escalation matrix tasks are escalated to next levels based on SLA defined.
 
-![](../images/escalation_matrix.png)
+![](images/escalation_matrix.png)
 
 ### Dynamic Steps
 
@@ -541,18 +541,18 @@ Below is the reusable process to use it in applications or any other business pr
 - API to fetch the steps based on activity
 - Generic workflow to create task (I.e., step) based on the activity
 
-![](../images/dynamic_steps1.png)
+![](images/dynamic_steps1.png)
 
-![](../images/dynamic_steps2.png)
+![](images/dynamic_steps2.png)
 
 ### Payment Gateway
 
 Payment gateway service enables applications to initiate ecommerce, in-app, and point of sale payments for a broad variety of payment service providers (PayPal, RazorPay, Paytm). The payment gateway is typically a wrapper service provides rest interface for orders, transfers, payments etc. Persists the transaction details in mongo db for reporting and auditing purpose.
 
-![](../images/checklist_component_diagram.png)
+![](images/checklist_component_diagram.png)
 
 #
 
 # AWGMENT Deployment Diagram (with multitenancy)
 
-![](../images/Multitenancy_deployment.jpg)
+![](images/Multitenancy_deployment.jpg)
