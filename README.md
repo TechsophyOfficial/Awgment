@@ -139,15 +139,15 @@ Account Service exposes rest interfaces to manage users, roles and groups. Provi
 
 For more details refer to GitHub repo [awgment-app-account](https://github.com/TechsophyOfficial/awgment-app-account)
 
-<!-- **High level component diagram**
+**High level component diagram**
 
 For more details refer to GitHub link.
 
 ![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png)
- ![](RackMultipart20221006-1-z9qk2v_html_d1776b82fb4025c8.png)
+ ![](images/user_component_diagram.png)
 **User Registration Workflow**
 
-![](RackMultipart20221006-1-z9qk2v_html_e19007851778fe05.png) -->
+![](images/user_workflow.png)
 
 ### Form Modeler
 
@@ -288,7 +288,7 @@ The following diagram represents the tenant registration workflow which gets inv
   6. S
   7. s
 
-![](RackMultipart20221006-1-z9qk2v_html_ef1a330163d0c19d.png)
+![](images/tenant_registration_workflow.png)
 
 _Multitenancy_
 
@@ -407,7 +407,7 @@ For more details refer to GitHub link.
 
 Checklist is a to-do list of items that needs to be completed by a human or a system to accomplish a business goal.
 
-![](RackMultipart20221006-1-z9qk2v_html_d378df85b768ccae.png)
+![](images/checklist_component_diagram.png)
 
 Above diagram represents how to create a checklist and use it in application.
 
@@ -506,7 +506,7 @@ The following are the features of PCI service
 - Exposes rest interface to fetch history for a transaction (SXP conversation and Process activity)
 - Exposes rest interface to log message into log stream (currently supports mongo db for) from Process/service (using Service Task) or SXP
 
-![](RackMultipart20221006-1-z9qk2v_html_202ac211c260dee7.png)
+![](images/SXP_integration.png)
 
 ### Escalation Matrix
 
@@ -532,7 +532,7 @@ For more details refer to GitHub link.
 
 Below is the reusable process to use it in applications or any other business processes for handling escalations for a task based on the configured escalation matrix. This is a generic process which requires task details and escalation matrix details so that based on the configured escalation matrix tasks are escalated to next levels based on SLA defined.
 
-![](RackMultipart20221006-1-z9qk2v_html_210d631ff2b7e848.png)
+![](images/escalation_matrix.png)
 
 ### Dynamic Steps
 
@@ -545,15 +545,15 @@ Below is the reusable process to use it in applications or any other business pr
 - API to fetch the steps based on activity
 - Generic workflow to create task (I.e., step) based on the activity
 
-![](RackMultipart20221006-1-z9qk2v_html_95d259b0286971db.png)
+![](images/dynamic_steps1.png)
 
-![](RackMultipart20221006-1-z9qk2v_html_8e8598fce830d0f0.png)
+![](images/dynamic_steps2.png)
 
 ### Payment Gateway
 
 Payment gateway service enables applications to initiate ecommerce, in-app, and point of sale payments for a broad variety of payment service providers (PayPal, RazorPay, Paytm). The payment gateway is typically a wrapper service provides rest interface for orders, transfers, payments etc. Persists the transaction details in mongo db for reporting and auditing purpose.
 
-<!-- ![](RackMultipart20221006-1-z9qk2v_html_37e3b7bb49f41636.png) -->
+![](images/checklist_component_diagram.png)
 
 #
 
