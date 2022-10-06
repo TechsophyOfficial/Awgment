@@ -2,7 +2,7 @@
 
 **Techsophy Internal**
 
-![](RackMultipart20221004-1-w2b5fb_html_e2fb3491f7c1dd72.png)
+![](RackMultipart20221006-1-z9qk2v_html_e2fb3491f7c1dd72.png)
 
 [Introduction 4](#_Toc113601679)
 
@@ -116,21 +116,21 @@ The easiest way to start using AWGMENT is to install the AWGMENT platform.
 
 **To get started:**
 
-git clone https://github.com/apache/openwhisk.git
+git clone https://github.com/TechsophyOfficial/awgment-package.git
 
-cd openwhisk
+cd awgment-package
 
-./gradlew core:standalone:bootRun
+Follow the instructions as per
 
-# Deploy to Kubernetes
+https://github.com/TechsophyOfficial/awgment-package/blob/main/README.md
 
 # AWGMENT Community and Support
 
-Report bugs, ask questions and request features [here on GitHub](https://github.com/apache/openwhisk/issues).
+Report bugs, ask questions and request features [here on GitHub](https://github.com/TechsophyOfficial/Awgment/issues) and tag @TechsophyOfficial/awgment-owners.
 
 # Project Repository Structure
 
-The AWGMENT Platform is built from a [number of components](https://github.com/apache/openwhisk/blob/master/docs/dev/modules.md).
+The AWGMENT Platform is built from a number of components.
 
 #
 
@@ -138,7 +138,7 @@ The AWGMENT Platform is built from a [number of components](https://github.com/a
 
 # AWGMENT Components
 
-![](RackMultipart20221004-1-w2b5fb_html_18fc5804b5af6dde.jpg)
+![](RackMultipart20221006-1-z9qk2v_html_18fc5804b5af6dde.jpg)
 
 ## Core Components
 
@@ -180,11 +180,11 @@ For more details refer to GitHub link.
 
 **High level component diagram**
 
-![](RackMultipart20221004-1-w2b5fb_html_799fc0e0d833261f.png)
- ![](RackMultipart20221004-1-w2b5fb_html_d1776b82fb4025c8.png)
+![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png)
+ ![](RackMultipart20221006-1-z9qk2v_html_d1776b82fb4025c8.png)
 **User Registration Workflow**
 
-![](RackMultipart20221004-1-w2b5fb_html_e19007851778fe05.png)
+![](RackMultipart20221006-1-z9qk2v_html_e19007851778fe05.png)
 
 ### Form Modeler
 
@@ -318,7 +318,7 @@ The following diagram represents the tenant registration workflow which gets inv
   6. S
   7. s
 
-![](RackMultipart20221004-1-w2b5fb_html_ef1a330163d0c19d.png)
+![](RackMultipart20221006-1-z9qk2v_html_ef1a330163d0c19d.png)
 
 _Multitenancy_
 
@@ -437,7 +437,7 @@ For more details refer to GitHub link.
 
 Checklist is a to-do list of items that needs to be completed by a human or a system to accomplish a business goal.
 
-![](RackMultipart20221004-1-w2b5fb_html_d378df85b768ccae.png)
+![](RackMultipart20221006-1-z9qk2v_html_d378df85b768ccae.png)
 
 Above diagram represents how to create a checklist and use it in application.
 
@@ -536,7 +536,7 @@ The following are the features of PCI service
 - Exposes rest interface to fetch history for a transaction (SXP conversation and Process activity)
 - Exposes rest interface to log message into log stream (currently supports mongo db for) from Process/service (using Service Task) or SXP
 
-![](RackMultipart20221004-1-w2b5fb_html_202ac211c260dee7.png)
+![](RackMultipart20221006-1-z9qk2v_html_202ac211c260dee7.png)
 
 ### Escalation Matrix
 
@@ -562,7 +562,7 @@ For more details refer to GitHub link.
 
 Below is the reusable process to use it in applications or any other business processes for handling escalations for a task based on the configured escalation matrix. This is a generic process which requires task details and escalation matrix details so that based on the configured escalation matrix tasks are escalated to next levels based on SLA defined.
 
-![](RackMultipart20221004-1-w2b5fb_html_210d631ff2b7e848.png)
+![](RackMultipart20221006-1-z9qk2v_html_210d631ff2b7e848.png)
 
 ### Dynamic Steps
 
@@ -575,18 +575,18 @@ Below is the reusable process to use it in applications or any other business pr
 - API to fetch the steps based on activity
 - Generic workflow to create task (I.e., step) based on the activity
 
-![](RackMultipart20221004-1-w2b5fb_html_95d259b0286971db.png)
+![](RackMultipart20221006-1-z9qk2v_html_95d259b0286971db.png)
 
-![](RackMultipart20221004-1-w2b5fb_html_8e8598fce830d0f0.png)
+![](RackMultipart20221006-1-z9qk2v_html_8e8598fce830d0f0.png)
 
 ### Payment Gateway
 
 Payment gateway service enables applications to initiate ecommerce, in-app, and point of sale payments for a broad variety of payment service providers (PayPal, RazorPay, Paytm). The payment gateway is typically a wrapper service provides rest interface for orders, transfers, payments etc. Persists the transaction details in mongo db for reporting and auditing purpose.
 
-![](RackMultipart20221004-1-w2b5fb_html_37e3b7bb49f41636.png)
+![](RackMultipart20221006-1-z9qk2v_html_37e3b7bb49f41636.png)
 
 #
 
 # AWGMENT Deployment Diagram (with multitenancy)
 
-![](RackMultipart20221004-1-w2b5fb_html_936a2296cfc4be5d.jpg)
+![](RackMultipart20221006-1-z9qk2v_html_936a2296cfc4be5d.jpg)
