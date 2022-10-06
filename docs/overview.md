@@ -90,7 +90,6 @@ Report bugs, ask questions and request features [here on GitHub](https://github.
 
 # Project Repository Structure
 
-The AWGMENT Platform is built from a number of components.
  -->
 
 # AWGMENT Components
@@ -136,8 +135,6 @@ Account Service exposes rest interfaces to manage users, roles and groups. Provi
 For more details refer to GitHub repo [awgment-app-account](https://github.com/TechsophyOfficial/awgment-app-account)
 
 **High level component diagram**
-
-For more details refer to GitHub link.
 
 
  ![](images/user_component_diagram.png)
