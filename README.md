@@ -1,8 +1,6 @@
 # AWGMENT – Main Page
 
-**Techsophy Internal**
 
-![](RackMultipart20221006-1-z9qk2v_html_e2fb3491f7c1dd72.png)
 
 [Introduction 4](#_Toc113601679)
 
@@ -138,7 +136,7 @@ The AWGMENT Platform is built from a number of components.
 
 # AWGMENT Components
 
-![](RackMultipart20221006-1-z9qk2v_html_18fc5804b5af6dde.jpg)
+![](images/AWGMENT_Component_Diagram.jpg)
 
 ## Core Components
 
@@ -170,21 +168,23 @@ Manage Accounts provides user interfaces to manage users, roles and groups requi
 - Assign groups and roles to users
 - Enables to customize the create/edit user form
 
-For more details refer to GitHub link.
 
-### Account Service
+ 
+#### Account Service
 
 Account Service exposes rest interfaces to manage users, roles and groups. Provides rest api to upload bulk users required for an application using csv file.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-app-account](https://github.com/TechsophyOfficial/awgment-app-account)
 
-**High level component diagram**
+<!-- **High level component diagram**
+
+For more details refer to GitHub link.
 
 ![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png)
  ![](RackMultipart20221006-1-z9qk2v_html_d1776b82fb4025c8.png)
 **User Registration Workflow**
 
-![](RackMultipart20221006-1-z9qk2v_html_e19007851778fe05.png)
+![](RackMultipart20221006-1-z9qk2v_html_e19007851778fe05.png) -->
 
 ### Form Modeler
 
@@ -197,11 +197,13 @@ Form Modeler component provides the following features.
 - Supports versioning of forms.
 - Built using [react-formio](https://github.com/formio/react-formio) library
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-modeler-form](https://github.com/TechsophyOfficial/awgment-modeler-form)
 
 ### Form Service
 
 Form Service exposes REST interfaces to create/update/delete/deploy/import/export forms and components (web components e.g., react/angular/html).
+
+For more details refer to GitHub repo [awgment-app-form](https://github.com/TechsophyOfficial/awgment-app-form).
 
 ### Form Runtime Service
 
@@ -209,7 +211,7 @@ Form runtime service exposes REST interfaces to manage the runtime forms. Upon d
 
 Form Data APIs – Form Runtime Service exposes generic REST interface to perform CRUD operations using form. Use form id (which is auto generated when a form is created) to perform CRUD and Search operations for the data persisted using the form.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-app-runtime-form](https://github.com/TechsophyOfficial/awgment-app-runtime-form).
 
 ### Workflow Modeler
 
@@ -222,13 +224,13 @@ Workflow Modeler is a micro frontend provides the following features.
 - Supports versioning of workflow
 - Built using the [bpm-js](https://github.com/bpmn-io/bpmn-js) and [camunda-bpmn-moddle](https://github.com/camunda/camunda-bpmn-moddle) plugin
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-modeler-workflow](https://github.com/TechsophyOfficial/awgment-modeler-workflow).
 
 ### Workflow Service
 
 Workflow service exposes REST interfaces to create/update/delete/deploy/import/export workflows.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-app-workflow](https://github.com/TechsophyOfficial/awgment-app-workflow).
 
 ### Workflow Engine
 
@@ -243,7 +245,7 @@ The following are the features.
 - This is an embedded camunda engine spring boot app integrated with keycloak.
 - Built custom REST Connector to configure and invoke the rest api using service task.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-modeler-workflow](https://github.com/TechsophyOfficial/awgment-modeler-workflow).
 
 ### Tasklist (Case-Inbox)
 
@@ -257,13 +259,15 @@ The following are the features.
 - View/Add comments of a task
 - Add Filter - To create a separate menu in tasklist to view the tasks based on filter criteria
 
+For more details refer to GitHub repo [awgment-ui-case](https://github.com/TechsophyOfficial/awgment-ui-case).
+
 ### UX-Controller
 
 UX-Controller is a wrapper service exposes REST interfaces to call workflow engine APIs. This wrapper service helps in replacing camunda workflow engine or integrating with other bpm tools (e.g., alfresco, flowable etc) in without impacting the applications or clients.
 
 Note: All the communication with workflow engine from any client or user interface should be through this service (using rest interfaces).
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-app-ux-controller](https://github.com/TechsophyOfficial/awgment-app-ux-controller).
 
 ### Rule Modeler
 
@@ -274,11 +278,13 @@ Rule Modeler component provides the following features.
 - Supports versioning of rule
 - Built using the [dmn-js](https://bpmn.io/toolkit/dmn-js/) plugin
 
+For more details refer to GitHub repo [awgment-modeler-rule](https://github.com/TechsophyOfficial/awgment-modeler-rule).
+
 ### Rule Service
 
 Rule service exposes REST interfaces to create/update/delete/deploy/import/export rules.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-app-rule](https://github.com/TechsophyOfficial/awgment-app-rule).
 
 ### Rule Engine
 
@@ -288,9 +294,10 @@ Rule Engine component provides the following features.
 - Rest interface to execute rules or decision tables
 - Uses [camunda decision engine](https://github.com/camunda/camunda-engine-dmn) for evaluating the rules or decision tables.
 
-For more details refer to GitHub link.
+For more details refer to GitHub repo [awgment-rule-engine](https://github.com/TechsophyOfficial/awgment-rule-engine).
 
 ## Additional Components
+The below components are on the roadmap to be open sourced, please reachout to @TechsophyOfficial/awgment-owners, if further details are required about them.
 
 ### Tenant Management
 
@@ -583,10 +590,10 @@ Below is the reusable process to use it in applications or any other business pr
 
 Payment gateway service enables applications to initiate ecommerce, in-app, and point of sale payments for a broad variety of payment service providers (PayPal, RazorPay, Paytm). The payment gateway is typically a wrapper service provides rest interface for orders, transfers, payments etc. Persists the transaction details in mongo db for reporting and auditing purpose.
 
-![](RackMultipart20221006-1-z9qk2v_html_37e3b7bb49f41636.png)
+<!-- ![](RackMultipart20221006-1-z9qk2v_html_37e3b7bb49f41636.png) -->
 
 #
 
 # AWGMENT Deployment Diagram (with multitenancy)
 
-![](RackMultipart20221006-1-z9qk2v_html_936a2296cfc4be5d.jpg)
+![](images/Multitenancy_deployment.jpg)
