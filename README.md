@@ -2,54 +2,20 @@
 
 
 
-[Introduction 4](#_Toc113601679)
+[Introduction 4](#introduction)
 
-[Quick Start 4](#_Toc113601680)
+[Quick Start 4](#quick-start)
 
-[Deploy to Kubernetes 4](#_Toc113601681)
+[AWGMENT Community and Support 4](#awgment-community-and-support)
 
-[AWGMENT Community and Support 4](#_Toc113601682)
+[Project Repository Structure 4](#project-repository-structure)
 
-[Project Repository Structure 4](#_Toc113601683)
+[AWGMENT Components 5](#awgment-components)
 
-[AWGMENT Components 5](#_Toc113601684)
+[Core Components 5](#core-components)
 
-[Core Components 5](#_Toc113601685)
-
-[Cloud Config Server 5](#_Toc113601686)
-
-[API Gateway 5](#_Toc113601687)
-
-[Keycloak 5](#_Toc113601688)
-
-[Manage Accounts 6](#_Toc113601689)
-
-[Account Service 6](#_Toc113601690)
-
-[Form Modeler 8](#_Toc113601691)
-
-[Form Service 8](#_Toc113601692)
-
-[Form Runtime Service 8](#_Toc113601693)
-
-[Workflow Modeler 8](#_Toc113601694)
-
-[Workflow Service 9](#_Toc113601695)
-
-[Workflow Engine 9](#_Toc113601696)
-
-[Tasklist (Case-Inbox) 9](#_Toc113601697)
-
-[UX-Controller 9](#_Toc113601698)
-
-[Rule Modeler 9](#_Toc113601699)
-
-[Rule Service 10](#_Toc113601700)
-
-[Rule Engine 10](#_Toc113601701)
-
-[Additional Components 10](#_Toc113601702)
-
+[Additional Components 10](#additional-components)
+<!-- 
 [Tenant Management 10](#_Toc113601703)
 
 [Multitenancy 11](#_Toc113601704)
@@ -100,9 +66,9 @@
 
 [Dynamic Steps 17](#_Toc113601727)
 
-[Payment Gateway 18](#_Toc113601728)
+[Payment Gateway 18](#_Toc113601728) -->
 
-[AWGMENT Deployment Diagram (with multitenancy) 19](#_Toc113601729)
+[AWGMENT Deployment Diagram (with multitenancy) 19](#awgment-deployment-diagram-with-multitenancy)
 
 # Introduction
 
@@ -130,9 +96,6 @@ Report bugs, ask questions and request features [here on GitHub](https://github.
 
 The AWGMENT Platform is built from a number of components.
 
-#
-
-#
 
 # AWGMENT Components
 
