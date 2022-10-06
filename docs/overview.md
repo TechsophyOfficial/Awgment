@@ -139,7 +139,7 @@ For more details refer to GitHub repo [awgment-app-account](https://github.com/T
 
 For more details refer to GitHub link.
 
- ![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png) 
+
  ![](images/user_component_diagram.png)
 
 
@@ -268,6 +268,7 @@ Tenant Management enables Admin (or Platform Admin) user to manage tenants in th
 - Sends notification to registered tenant user upon successful tenant creation
 - Customize tenant registration workflow and forms
 
+<!-- 
 For more details refer to GitHub link.
 
 **Tenant Registration Workflow**
@@ -287,10 +288,12 @@ The following diagram represents the tenant registration workflow which gets inv
   7. s
 
 ![](images/tenant_registration_workflow.png)
-
+ -->
 _Multitenancy_
 
 Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given above.
+
+[Multitenant Deployment](#awgment-deployment-diagram-with-multitenancy)
 
 ### Notification Service
 

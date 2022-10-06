@@ -565,4 +565,6 @@ Payment gateway service enables applications to initiate ecommerce, in-app, and 
 
 # AWGMENT Deployment Diagram (with multitenancy)
 
+Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given above.
+
 ![](docs/images/Multitenancy_deployment.jpg)
