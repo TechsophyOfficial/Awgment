@@ -139,10 +139,10 @@ For more details refer to GitHub repo [awgment-app-account](https://github.com/T
 
 For more details refer to GitHub link.
 
-<!-- ![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png) -->
+ ![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png) 
  ![](images/user_component_diagram.png)
- 
- <br/>
+
+
 **User Registration Workflow**
 
 ![](images/user_workflow.png)
