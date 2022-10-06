@@ -1,16 +1,14 @@
-# AWGMENT
+# AWGMENT – Overview
+
 
 
 [Introduction 4](#introduction)
 
-[Quick Start 4](#quick-start)
-
-[AWGMENT Community and Support 4](#awgment-community-and-support)
-
-[Project Repository Structure 4](#project-repository-structure)
-
 [AWGMENT Components 5](#awgment-components)
 
+[Core Components 5](#core-components)
+
+[Additional Components 10](#additional-components)
 <!-- 
 [Tenant Management 10](#_Toc113601703)
 
@@ -70,9 +68,7 @@
 
 Awgment Platform is a comprehensive cloud native platform for rapid development, deployment, monitor and change management of enterprise application. Awgment focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. By using Awgment to integrate models and data into native services, developers can create powerful products or services leveraging cloud-native technologies.
 
-An overview of individual components can be found [here](docs/overview.md)
-
-# Quick Start
+<!-- # Quick Start
 
 The easiest way to start using AWGMENT is to install the AWGMENT platform.
 
@@ -92,22 +88,15 @@ https://github.com/TechsophyOfficial/awgment-package/blob/main/README.md
 
 Report bugs, ask questions and request features [here on GitHub](https://github.com/TechsophyOfficial/Awgment/issues) and tag @TechsophyOfficial/awgment-owners.
 
-
-
 # Project Repository Structure
 
-The AWGMENT Platform is built from a number of components.
-The core components are open-sourced while others are on the roadmap.
-
-The open-sourced component repos can be found [here](https://github.com/orgs/TechsophyOfficial/repositories)
+ -->
 
 # AWGMENT Components
 
-![](docs/images/AWGMENT_Component_Diagram.jpg)
+![](images/AWGMENT_Component_Diagram.jpg)
 
-An overview of individual components can be found [here](docs/overview.md)
-
-<!-- ## Core Components
+## Core Components
 
 ### Cloud Config Server
 
@@ -147,13 +136,13 @@ For more details refer to GitHub repo [awgment-app-account](https://github.com/T
 
 **High level component diagram**
 
-For more details refer to GitHub link.
 
-![](RackMultipart20221006-1-z9qk2v_html_799fc0e0d833261f.png)
- ![](docs/images/user_component_diagram.png)
+ ![](images/user_component_diagram.png)
+
+
 **User Registration Workflow**
 
-![](docs/images/user_workflow.png)
+![](images/user_workflow.png)
 
 ### Form Modeler
 
@@ -276,6 +265,7 @@ Tenant Management enables Admin (or Platform Admin) user to manage tenants in th
 - Sends notification to registered tenant user upon successful tenant creation
 - Customize tenant registration workflow and forms
 
+<!-- 
 For more details refer to GitHub link.
 
 **Tenant Registration Workflow**
@@ -294,11 +284,13 @@ The following diagram represents the tenant registration workflow which gets inv
   6. S
   7. s
 
-![](docs/images/tenant_registration_workflow.png)
-
+![](images/tenant_registration_workflow.png)
+ -->
 _Multitenancy_
 
-Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given above.
+Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is given-
+
+[Multitenant Deployment](#awgment-deployment-diagram-with-multitenancy)
 
 ### Notification Service
 
@@ -413,7 +405,7 @@ For more details refer to GitHub link.
 
 Checklist is a to-do list of items that needs to be completed by a human or a system to accomplish a business goal.
 
-![](docs/images/checklist_component_diagram.png)
+![](images/checklist_component_diagram.png)
 
 Above diagram represents how to create a checklist and use it in application.
 
@@ -512,7 +504,7 @@ The following are the features of PCI service
 - Exposes rest interface to fetch history for a transaction (SXP conversation and Process activity)
 - Exposes rest interface to log message into log stream (currently supports mongo db for) from Process/service (using Service Task) or SXP
 
-![](docs/images/SXP_integration.png)
+![](images/SXP_integration.png)
 
 ### Escalation Matrix
 
@@ -538,7 +530,7 @@ For more details refer to GitHub link.
 
 Below is the reusable process to use it in applications or any other business processes for handling escalations for a task based on the configured escalation matrix. This is a generic process which requires task details and escalation matrix details so that based on the configured escalation matrix tasks are escalated to next levels based on SLA defined.
 
-![](docs/images/escalation_matrix.png)
+![](images/escalation_matrix.png)
 
 ### Dynamic Steps
 
@@ -551,20 +543,18 @@ Below is the reusable process to use it in applications or any other business pr
 - API to fetch the steps based on activity
 - Generic workflow to create task (I.e., step) based on the activity
 
-![](docs/images/dynamic_steps1.png)
+![](images/dynamic_steps1.png)
 
-![](docs/images/dynamic_steps2.png)
+![](images/dynamic_steps2.png)
 
 ### Payment Gateway
 
 Payment gateway service enables applications to initiate ecommerce, in-app, and point of sale payments for a broad variety of payment service providers (PayPal, RazorPay, Paytm). The payment gateway is typically a wrapper service provides rest interface for orders, transfers, payments etc. Persists the transaction details in mongo db for reporting and auditing purpose.
 
-![](docs/images/checklist_component_diagram.png)
+![](images/checklist_component_diagram.png)
 
-# -->
+#
 
 # AWGMENT Deployment Diagram (with multitenancy)
 
-Awgment platform enables organizations to build their applications or solutions with multitenancy support. Each tenant gets its own logical instance of the application and database. Data is shared among the users within a tenant, but not with other tenants. Typical multitenant deployment diagram is provided-
-
-![](docs/images/Multitenancy_deployment.jpg)
+![](images/Multitenancy_deployment.jpg)
