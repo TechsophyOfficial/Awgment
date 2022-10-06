@@ -92,7 +92,7 @@ https://github.com/TechsophyOfficial/awgment-package/blob/main/README.md
 
 Report bugs, ask questions and request features [here on GitHub](https://github.com/TechsophyOfficial/Awgment/issues) and tag @TechsophyOfficial/awgment-owners.
 
-All contributions are welcomed, please follow guidelines as per [CONTRIBUTING](CONTRIBUTING.md)
+All contributions are welcome, please follow guidelines as per [CONTRIBUTING](CONTRIBUTING.md)
 
 # Project Repository Structure
 
