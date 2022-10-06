@@ -68,7 +68,7 @@
 
 Awgment Platform is a comprehensive cloud native platform for rapid development, deployment, monitor and change management of enterprise application. Awgment focuses on the "plumbing" of enterprise applications so that teams can focus on application-level business logic, without unnecessary ties to specific deployment environments. By using Awgment to integrate models and data into native services, developers can create powerful products or services leveraging cloud-native technologies.
 
-# Quick Start
+<!-- # Quick Start
 
 The easiest way to start using AWGMENT is to install the AWGMENT platform.
 
@@ -91,7 +91,7 @@ Report bugs, ask questions and request features [here on GitHub](https://github.
 # Project Repository Structure
 
 The AWGMENT Platform is built from a number of components.
-
+ -->
 
 # AWGMENT Components
 
